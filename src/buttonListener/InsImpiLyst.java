@@ -25,7 +25,9 @@ import progr.Impianto;
 public class InsImpiLyst extends Test implements ActionListener 
 {
 	
-	
+	/**
+	 * id impianto univoco
+	 */
 	public static int idImpianto=0;
 	
 	public void actionPerformed(ActionEvent arg0)

@@ -24,7 +24,11 @@ import javax.swing.JTextField;
 import progr.Dashboard;
 import progr.Impianto;
 import progr.utility;
-
+/**
+ * 
+ * classe che gestisce  trasferimetno dati verso cliente
+ *
+ */
 public class TrasDatiLyst extends Test implements ActionListener
 {
 	
@@ -141,7 +145,7 @@ public class TrasDatiLyst extends Test implements ActionListener
 										      Statement st;
 										      PreparedStatement psInsert = null;
 										      String createString = "CREATE TABLE SENSORI   "
-										    	        +  " (RILEVAZIONE VARCHAR(100) NOT NULL,"
+										    	        +  " (RILEVAZIONE VARCHAR(120) NOT NULL,"
 										    	        + "  IDIMPIANTO VARCHAR(32) NOT NULL ) " ;
 										      Class.forName(driver);
 										      conn = DriverManager.getConnection(connectionURL);

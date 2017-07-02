@@ -5,6 +5,11 @@ import java.util.Date;
 import java.util.Random;
 
 import progr.utility;
+/**
+ * 
+ * classe realizza un sensore specifico
+ *
+ */
 public class SenSamsungFumo extends Sensore implements SensoreInt
 {
 	//variabili locali

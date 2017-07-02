@@ -10,10 +10,19 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import progr.Dashboard;
 import progr.Piattaforma;
-
+/**
+ * 
+ * classe che gestisce  l'interafaccia principale e il main
+ *
+ */
 public class Test {
-
+/**
+ * rappresenta un elenco di dashboard, una per ogni impianto
+ */
 	public static ArrayList<Dashboard> dashb=new ArrayList<Dashboard>();
+	/**
+	 * rappresenta un istanza di piattaforma
+	 */
 	public static  Piattaforma piat=new Piattaforma();
 	
 	public static void main(String[] args)

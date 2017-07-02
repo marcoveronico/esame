@@ -19,7 +19,11 @@ import javax.swing.JTextField;
 import progr.Impianto;
 
 import sensori.Sensore;
-
+/**
+ * 
+ * classe che gestisce  l'eliminazione di un sensore dalla piattaforma
+ *
+ */
 public class ElimSensLyst extends Test implements ActionListener
 {
 
@@ -90,9 +94,10 @@ public class ElimSensLyst extends Test implements ActionListener
 				{
 					public void actionPerformed(ActionEvent arg0)
 					{
-					for(Impianto x:piat.ImpList)
-					{
 					 try {
+						 for(Impianto x:piat.ImpList)
+					{
+					
 							if(x.getNomeIm().equalsIgnoreCase(lab1Field.getText())&& x.getPsw().equalsIgnoreCase(String.copyValueOf(psw.getPassword())))
 							{
 								
@@ -112,10 +117,10 @@ public class ElimSensLyst extends Test implements ActionListener
 								
 							
 							}
-						  } catch (HeadlessException e) {e.printStackTrace(); } 
-						    catch (IOException e) {e.printStackTrace(); }
+						  }
+					} catch (HeadlessException e) {e.printStackTrace(); } 
+					    catch (IOException e) {e.printStackTrace(); }
 					  
-					}
 					}
 				}
 				back.addActionListener(new backLyst());
