@@ -6,14 +6,14 @@ import java.io.IOException;
 import java.util.ArrayList;
 import progr.Dashboard;
 import progr.Impianto;
-import progr.Test;
+
 import sensori.Sensore;
 /**
  * 
  * gestisce la crazione della dashboard contenente un riassunto di tutte le rilevazioni dei sensori per ogni impianto
  */
 public class ProdDashbLyst extends Test implements ActionListener 
-{
+{ 
    @Override
 	public void actionPerformed(ActionEvent arg0) 
 	{

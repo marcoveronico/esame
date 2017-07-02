@@ -16,7 +16,9 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-import progr.*;
+import progr.Dashboard;
+import progr.Impianto;
+import progr.utility;;
 
 /**
  * 

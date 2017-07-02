@@ -60,12 +60,12 @@ public class SenPhilipsFumo extends Sensore implements SensoreInt
 				
 				String dataString=u.calStringaData(new Date());
 				String stringadec=dataString+valoreril();
-				rilevazione="<id:"+id+">"+"<"+stringadec+">"+"<Rilevatore_Fumo>"; 
+				rilevazione="<ident:"+id+">"+"<"+stringadec+">"+"<Rilevatore_Fumo>"; 
 			}
 			else
 			{
 				String dataString=u.calStringaData(new Date());
-			rilevazione="<id"+id+">"+"<"+dataString+">"+" < errore :"+ codErrore+ "<Rilevazione_Fumo>";	
+			rilevazione="<ident:"+id+">"+"<"+dataString+">"+" < errore :"+ codErrore+ "<Rilevazione_Fumo>";	
 			}
 		return rilevazione;	
 	}

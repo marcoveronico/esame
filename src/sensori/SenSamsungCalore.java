@@ -52,12 +52,12 @@ public class SenSamsungCalore extends Sensore implements SensoreInt
 				
 				String dataString=u.calStringaData(new Date());
 				String stringadec=dataString+valoreril();
-				rilevazione="<id:"+id+">"+"<"+stringadec+">"+"<Rilevatore_calore>"; 
+				rilevazione="<ident:"+id+">"+"<"+stringadec+">"+"<Rilevatore_calore>"; 
 			}
 			else
 			{
 			String dataString=u.calStringaData(new Date());
-			rilevazione="<id"+id+">"+"<"+dataString+">"+" < errore :"+ codErrore+ "<Rilevazione_calore>";	
+			rilevazione="<ident:"+id+">"+"<"+dataString+">"+" < errore :"+ codErrore+ "<Rilevazione_calore>";	
 			}
 		return rilevazione;	
 		

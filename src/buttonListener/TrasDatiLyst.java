@@ -23,7 +23,6 @@ import javax.swing.JTextField;
 
 import progr.Dashboard;
 import progr.Impianto;
-import progr.Test;
 import progr.utility;
 
 public class TrasDatiLyst extends Test implements ActionListener
@@ -57,7 +56,7 @@ public class TrasDatiLyst extends Test implements ActionListener
 			progressBar.setValue(0);
 			progressBar.setIndeterminate(false);
 			
-			class selLyst implements ActionListener 
+			class SelLyst implements ActionListener 
 			{
 				public void actionPerformed(ActionEvent arg0)
 				{
@@ -179,7 +178,7 @@ public class TrasDatiLyst extends Test implements ActionListener
 							}
 						}	
 				JButton back=new JButton("menù precedente");
-				class backLyst implements ActionListener 
+				class BackLyst implements ActionListener 
 				{
 				   public void actionPerformed(ActionEvent arg0)
 					{
@@ -188,7 +187,7 @@ public class TrasDatiLyst extends Test implements ActionListener
 				}
 				testo.addActionListener(new TestoLyst());
 				database.addActionListener(new DBLyst());
-				back.addActionListener(new backLyst());
+				back.addActionListener(new BackLyst());
 				panel.add(lab1);
 				panel.add(testo);
 				panel.add(database);
@@ -200,7 +199,7 @@ public class TrasDatiLyst extends Test implements ActionListener
 				else JOptionPane.showMessageDialog(null,"nome o password errati");
 				}
 			}
-		    sel.addActionListener(new selLyst());
+		    sel.addActionListener(new SelLyst());
 			JButton back=new JButton("menù precedente");
 			class backLyst implements ActionListener 
 			{

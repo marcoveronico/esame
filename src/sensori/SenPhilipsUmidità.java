@@ -51,12 +51,12 @@ public class SenPhilipsUmidità extends Sensore implements SensoreInt
 				
 				String dataString=u.calStringaData(new Date());
 				String stringadec=dataString+valoreril();
-				rilevazione="<id:"+id+">"+"<"+stringadec+">"+"<Rilevatore_umidità>"; 
+				rilevazione="<ident:"+id+">"+"<"+stringadec+">"+"<Rilevatore_umidità>"; 
 			}
 			else
 			{
 			String dataString=u.calStringaData(new Date());
-			rilevazione="<id"+id+">"+"<"+dataString+">"+" < errore :"+ codErrore+ "<Rilevazione_umidità>";	
+			rilevazione="<ident:"+id+">"+"<"+dataString+">"+" < errore :"+ codErrore+ "<Rilevazione_umidità>";	
 			}
 		return rilevazione;	
 		

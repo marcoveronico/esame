@@ -17,7 +17,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 import progr.Impianto;
-import progr.Test;
+
 import sensori.Sensore;
 
 public class ElimSensLyst extends Test implements ActionListener

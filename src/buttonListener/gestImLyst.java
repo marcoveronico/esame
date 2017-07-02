@@ -16,7 +16,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 import progr.Impianto;
-import progr.Test;
+
 /**
  * 
  * classe che gestisce l'inserimento dei sensori in un determinato impianto

@@ -8,7 +8,7 @@ import java.util.ArrayList;
  */
 public class Dashboard 
 {
-private ArrayList<String> dashboard=new ArrayList<String>();
+private   ArrayList<String> dashboard=new ArrayList<String>();
 private String impianto=null;
 private String psw=null;
 /**
@@ -47,4 +47,6 @@ public String getPswImp()
 {
 	return psw;
 }
+
+
 }
